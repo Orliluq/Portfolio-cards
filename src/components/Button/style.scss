@@ -1,0 +1,19 @@
+.button-container {
+    background-color: rgb(235, 14, 224);
+    width: fit-content;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    color: white;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px white;
+}
